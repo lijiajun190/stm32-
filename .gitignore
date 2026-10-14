@@ -1,0 +1,24 @@
+# 本地配置与目录迁移前的构建缓存
+/.local/
+/.claude/
+**/.settings/
+**/CMakeUserPresets.json
+
+# 构建产物由源码生成，不作为仓库内容维护
+**/build/
+**/mx.scratch/
+**/compile_commands.json
+*.elf
+*.map
+*.o
+*.obj
+*.hup
+
+# Python 与系统缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.DS_Store
+Thumbs.db

@@ -1,0 +1,10 @@
+{
+  "manual_rpm": 600,
+  "max_rpm": 1800,
+  "kp": 0.25,
+  "ki": 0.2,
+  "kd": 0.0,
+  "gas_low_v": 0.4,
+  "gas_high_v": 2.5,
+  "shutdown_delay_ms": 30000
+}
